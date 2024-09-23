@@ -1,0 +1,26 @@
+warning: adding embedded git repository: cloned_repo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> cloned_repo
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached cloned_repo
+hint: 
+hint: See "git help submodule" for more information.
+[master 5843e5c] Auto-trained model update
+ 9 files changed, 105 insertions(+)
+ create mode 100644 __pycache__/fetch_github_data.cpython-310.pyc
+ create mode 100644 __pycache__/fetch_web_data.cpython-310.pyc
+ create mode 100644 auto_learn.log
+ create mode 100644 auto_learn.py
+ create mode 160000 cloned_repo
+ create mode 100644 fetch_github_data.py
+ create mode 100644 fetch_web_data.py
+ create mode 100644 web_data.txt
+To https://github.com/John433-max/Infinity.git
+   1f59167..5843e5c  master -> master
